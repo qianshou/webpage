@@ -1,0 +1,15 @@
+.mov{
+	width: 840px;
+	height: 450px;
+}
+.role_detail{
+	margin-top: 20px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.col-lg-12 ul li{
+	line-height: 30px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #ECF0F1;
+}

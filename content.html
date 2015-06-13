@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+<title>阿小莉很娱乐</title>
+
+<!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="./css/offcanvas.css" rel="stylesheet">
+<link href="./css/1list.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">右侧菜单</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">阿小莉很娱乐</a> </div>
+    <div id="navbar" class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+        <li><a href="./index.html">主页</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">网页设计 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="./html.html">HTML技术</a></li>
+            <li><a href="./css.html">CSS技术</a></li>
+            <li><a href="./js.html">Javascript技术</a></li>
+            <li><a href="./dw.html">Dreamwaver技术</a></li>
+          </ul>
+        </li>
+        <li class="dropdown active">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">多媒体编辑 <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="./au.html">AU技术</a></li>
+            <li><a href="./fla.html">Flash技术</a></li>
+            <li><a href="./psd.html">Photoshop技术</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">动漫新闻<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="./onepiece.html">海贼王</a></li>
+            <li><a href="./naruto.html">火影忍者</a></li>
+            <li><a href="./kenan.html">名侦探柯南</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+        <a href="./hanliu.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">韩流新闻<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="./girls.html">少女时代</a></li>
+            <li><a href="./bigbang.html">Big Bang</a></li>
+            <li><a href="./exo.html">EXO</a></li>
+          </ul>
+        </li>
+        <li><a href="./about-me.html">关于我</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="关键字">
+        </div>
+        <button type="submit" class="btn btn-default">查找</button>
+      </form>
+      </ul>
+    </div>
+    <!-- /.nav-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
+<!-- /.navbar -->
+
+<div class="container">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-9">
+      <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+      </p>
+      <ol class="breadcrumb">
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./multimedia.html">多媒体编辑</a></li>
+        <li><a href="./au.html">Adobe Audition技术</a></li>
+        <li class="active">文章内容</li>
+      </ol>
+      <div class="row" >  
+        <p><span style="font-weight:bolder;font-size:200%;padding-left:20px;">Adobe_Audition消除人声</span></p>
+        <p><span class="col-xs-12 col-sm-3">作者：阿小莉很娱乐</span><span class="3">时间：2015-6-1</span></p>
+        <hr/>
+        <div class="content" style="margin-left:20px;">
+         <div style="margin-top:30px;margin-bottom:30px;line-height:30px;text-indent:2em;"> 
+<p>方法一：效果 - 立体声声像 - 声道重混缩 - 选择Vocal Cut<br/>
+新建左声道(左100;右-100) 新建右声道(左-100;右100;反相)</p> 
+<p>方法二：效果 - 立体声声像 - 析取中置通道 - Karaoke(效果预置) - 男声.<br/>
+(测试后，在傻瓜式中这种方法效果最好)</p>
+<p>方法三：编辑 - 转换采样类型,<br/>
+在弹出的对话框中选中"通道"选项中的"单声道".<br/>
+再将左声道混合比和右声道混合比分别设置为100%和-100%.<br/>
+优化式，以小齐的对面的女孩看过来.mp3为例<br/></p>
+<p>
+步骤一（同傻瓜式方法二一样）：初步消除人声。在多轨视图下将歌曲导入到Adobe Audition 3.<br/>0音轨1，双击音块进入编辑模式，如歌曲对面的女孩看过来，在单轨编辑视图模式下，效果 - 立体声声像 - 析取中置通道 - Karaoke(效果预置) - 男声.另存为对面的女孩看过来（伴凑）.mp3<br/>
+这里也可以用同傻瓜式方法一一样，完成初频消除人声，不同的歌二种方式都有不同的效果。<br/></p>
+<p>
+步骤二:进一步消除噪音<br/>
+效果 - 滤波和均衡 – 参量均衡器，进行调整，确定并保存。<br/></p>
+<p>
+步骤三：低频补尝<br/>
+消声后，它的音频被衰减了很多。要对低频进行补尝。<br/>
+打开原对面的女孩看过来.mp3文件，导入到音轨2中。同上进入间轨2编辑模式，并打开效果 - 滤波和均衡 – 参量均衡器。进行如下调节<br/>
+并另存为对面的女孩看过来（BASS）.mp3<br/></p>
+<p>
+步骤四：多轨合成<br/>
+对音轨1音轨 2进行合并，选中音轨1音轨2，在音轨3中右击 – 合并到新音轨 – 所选音频剪辑（立体声）<br/>
+把合成的音频另存为就OK了。<br/>
+</p>
+<p>
+顺便说一下，wav格式音质会好一些。
+</p>
+         </div>
+        </div>
+      </div>
+      <hr/>
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        留下你的足迹吧~
+      </button>
+      <!--/row--> 
+    </div>
+    <!--/.col-xs-12.col-sm-9-->
+    
+    <div class="col-xs-12 col-sm-3 sidebar-offcanvas" id="sidebar">
+     <ul class="nav nav-pills nav-stacked">
+        <li role="presentation"><a href="./multimedia.html" style="color:red;">多媒体编辑</a></li>
+        <li role="presentation"  class="active"><a href="./au.html">&nbsp;&nbsp;|--------AU技术</a></li>
+        <li role="presentation"><a href="./fla.html">&nbsp;&nbsp;|--------Flash技术</a></li>
+        <li role="presentation"><a href="./psd.html">&nbsp;&nbsp;|--------Photoshop技术</a></li> 
+        <li role="presentation"><a href="./webdesign.html">网页设计</a></li>
+        <li role="presentation"><a href="./html.html">&nbsp;&nbsp;|--------HTML技术</a></li>
+        <li role="presentation"><a href="./css.html">&nbsp;&nbsp;|--------CSS技术</a></li>
+        <li role="presentation"><a href="./js.html">&nbsp;&nbsp;|--------Javascript技术</a></li>
+        <li role="presentation"><a href="./dw.html">&nbsp;&nbsp;|--------Dreamwaver技术</a></li>
+        <li role="presentation"><a href="./hanliu.html">韩流新闻</a></li>
+        <li role="presentation"><a href="./girls.html">&nbsp;&nbsp;|--------少女时代</a></li>
+        <li role="presentation"><a href="./bigbang.html">&nbsp;&nbsp;|--------Big Bang</a></li>
+        <li role="presentation"><a href="./exo.html">&nbsp;&nbsp;|--------EXO</a></li>
+        <li role="presentation"><a href="./cartoon.html">动漫新闻</a></li>
+        <li role="presentation"><a href="./onepiece.html">&nbsp;&nbsp;|--------海贼王</a></li>
+        <li role="presentation"><a href="./naruto.html">&nbsp;&nbsp;|--------火影忍者</a></li>
+        <li role="presentation"><a href="./kenan.html">&nbsp;&nbsp;|--------名侦探柯南</a></li>  
+     </ul>
+    </div>
+    <!--/.sidebar-offcanvas--> 
+  </div>
+  <!--/row-->
+  
+  <hr>
+  <footer>
+    <p>&copy; Liu Li</p>
+  </footer>
+</div>
+<!--/.container--> 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">添加新留言</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" method="post" action="add_grade.php">
+          <div class="form-group">
+            <label  class="col-sm-2 col-md-offset-1 control-label">称呼</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="name" >
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="col-sm-2 col-md-offset-1 control-label">电子邮箱</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="mail">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-md-offset-1 control-label">网站</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" name="website">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-2 col-md-offset-1 control-label">评论</label>
+            <div class="col-sm-6">
+              <textarea cols="35" rows="5"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-10">
+              <button type="submit" class="btn btn-primary">  提 交  </button>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn btn-default" data-dismiss="modal">  关 闭  </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./js/jquery.min.js"></script> 
+<script src="./js/bootstrap.min.js"></script> 
+<script src="./js/offcanvas.js"></script>
+</body>
+</html>

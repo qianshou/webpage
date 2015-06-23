@@ -5,19 +5,19 @@
  
 #版式说明
         网页的版式主要由四部分组成，分别是：首页、一级菜单页面、二级菜单页面、文章内容页。
-        首页内容布局<br/>
+首页内容布局<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/QQ%E6%88%AA%E5%9B%BE20150623172321.png"><br/>
-内容页面样式布局
+内容页面样式布局<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/%E5%86%85%E5%AE%B9.png"><br/>
-一级菜单布局样式一
+一级菜单布局样式一<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/11.png"><br/>
-一级菜单布局样式二
+一级菜单布局样式二<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/12.png"><br/>
-二级菜单布局样式一
+二级菜单布局样式一<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/21.png"><br/>
-二级菜单布局样式二
+二级菜单布局样式二<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/22.png"><br/>
-二级菜单布局样式三
+二级菜单布局样式三<br/>
 <img src="http://koastal-pic.stor.sinaapp.com/23.png"><br/>
 #制作过程
 该网页综合运用了HTML、CSS和JavaScript技术，并使用了bootstrap和JQuery框架进行设计。  
